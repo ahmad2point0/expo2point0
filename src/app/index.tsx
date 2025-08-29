@@ -1,4 +1,3 @@
-import { Button, Text } from "@/global/components";
 import { View } from "react-native";
 
 export default function Index() {
@@ -10,9 +9,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Button>
-        <Text>Hello </Text>
-      </Button>
+
     </View>
   );
 }

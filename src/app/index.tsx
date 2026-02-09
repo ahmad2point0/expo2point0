@@ -1,15 +1,14 @@
-import { View } from "react-native";
+import { withSafeAreaView } from "@/global";
+import React from "react";
+import { Text, View } from "react-native";
 
-export default function Index() {
+function Index() {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-
+    <View>
+      <Text>Index</Text>
     </View>
   );
 }
+const SafeArea = withSafeAreaView(Index);
+const KeyboardAvoid = withSafeAreaView(SafeArea);
+export default KeyboardAvoid;

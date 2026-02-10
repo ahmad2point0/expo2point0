@@ -1,7 +1,3 @@
 import { withKeyboardAwareScrollView } from "./withKeyboardAwareScrollView";
 import { withSafeAreaView } from "./withSafeAreaView";
-export {
-    withKeyboardAwareScrollView,
-    withSafeAreaView
-};
-
+export { withKeyboardAwareScrollView, withSafeAreaView };

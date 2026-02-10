@@ -4,15 +4,9 @@
     "baseUrl": "./src",
     "strict": true,
     "paths": {
-      "@/*": [
-        "*"
-      ],
-      "@global/*": [
-        "./global/*"
-      ],
-      "@features/*": [
-        "./features/*"
-      ]
+      "@/*": ["*"],
+      "@global/*": ["./global/*"],
+      "@features/*": ["./features/*"]
     }
   },
   "include": [

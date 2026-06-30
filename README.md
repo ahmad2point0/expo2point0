@@ -7,8 +7,8 @@ Modern React Native Expo starter template with the latest Expo SDK, preconfigure
 
 ## Features
 
-- **Expo SDK 54** with New Architecture enabled
-- **Expo Router v6** with file-based routing and typed routes
+- **Expo SDK 57** with New Architecture enabled
+- **Expo Router v57** with file-based routing and typed routes
 - **NativeWind v4** (Tailwind CSS for React Native) with dark mode support
 - **TypeScript** with strict mode and path aliases (`@/*`, `@global/*`, `@features/*`)
 - **Husky + lint-staged** pre-commit hooks (ESLint, Prettier, console.log removal, Expo Doctor)
@@ -70,18 +70,18 @@ src/
 
 | Category | Technology | Version |
 |---|---|---|
-| Framework | Expo | 54.0.33 |
-| Runtime | React Native | 0.81.5 |
-| UI Library | React | 19.1.0 |
-| Routing | Expo Router | 6.0.23 |
+| Framework | Expo | 57.0.0 |
+| Runtime | React Native | 0.86.0 |
+| UI Library | React | 19.2.3 |
+| Routing | Expo Router | 57.0.2 |
 | Styling | NativeWind + Tailwind CSS | 4.1.23 / 3.4.17 |
-| Animations | React Native Reanimated | 4.1.1 |
-| Gestures | react-native-gesture-handler | 2.28.0 |
-| Keyboard | react-native-keyboard-controller | 1.18.5 |
-| Linting | ESLint + eslint-config-expo | 9.25.0 |
-| Formatting | Prettier + prettier-plugin-tailwindcss | — |
-| Git Hooks | Husky + lint-staged | 9.1.7 |
-| Language | TypeScript | 5.9.2 |
+| Animations | React Native Reanimated | 4.5.0 |
+| Gestures | react-native-gesture-handler | 2.32.0 |
+| Keyboard | react-native-keyboard-controller | 1.21.9 |
+| Linting | ESLint + eslint-config-expo | 9.34.0 |
+| Formatting | Prettier + prettier-plugin-tailwindcss | 3.8.1 / 0.5.14 |
+| Git Hooks | Husky + lint-staged | 9.1.7 / 16.2.7 |
+| Language | TypeScript | 6.0.3 |
 
 ## Path Aliases
 

@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "audiology-consultants-app",
-    "slug": "audiology-consultants-app",
+    "name": "expo2point0",
+    "slug": "expo2point0",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./src/assets/images/icon.png",
-    "scheme": "audiologyconsultantsapp",
+    "scheme": "expo2point0",
     "userInterfaceStyle": "automatic",
     "ios": {
       "supportsTablet": true
@@ -15,7 +15,7 @@
         "foregroundImage": "./src/assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.code2point0.audiologyconsultantsapp"
+      "package": "com.code2point0.expo2point0"
     },
     "web": {
       "bundler": "metro",
@@ -35,7 +35,8 @@
       ],
       "expo-font",
       "expo-web-browser",
-      "expo-image"
+      "expo-image",
+      "expo-status-bar"
     ],
     "experiments": {
       "typedRoutes": true
